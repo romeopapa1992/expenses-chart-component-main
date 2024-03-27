@@ -30,7 +30,7 @@ main {
     margin: 1rem auto;
 }
 
-.card-balance p, .left-section p, .right-section p, h3 {
+.card-balance p, .left-section p, .right-section p {
     font-size: small;
 }
 
@@ -132,8 +132,13 @@ hr {
     justify-content: center
 }
 
-h2 {
-    font-size: 30px;
+#total-amount {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#percentage {
+    font-weight: 700;
 }
 
 .attribution { 
